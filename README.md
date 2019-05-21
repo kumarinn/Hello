@@ -5,7 +5,7 @@ class Kumari
 public void good_girl()
 {
 
-System.out.println("She is a kind hearted girl");
+System.out.println("She is a gud girl");
 
 }
 
