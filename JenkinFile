@@ -1,0 +1,30 @@
+pipeline
+{
+    agent any
+    
+        stages
+    {
+        stage ('Build')
+        {
+            step
+            {
+           input('Do you want to proceed?')  
+        }
+        }
+        stage ('test')
+        {
+            step
+            {
+            echo "helooooooooooooooooooooooooooo"
+        }
+        }
+        stage ('Deploy')
+        {
+            step{
+                
+            
+           echo "kummmmmmmmmmmmmmmmmmmmmmmmmm" 
+        }
+        }
+    }
+}
