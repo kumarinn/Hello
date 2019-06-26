@@ -75,14 +75,7 @@
                     <goals>
                         <goal>deploy-file</goal>
                     </goals>
-                    <configuration>
-                        <repositoryId>${project.distributionManagement.snapshotRepository.id}</repositoryId>
-                        <url>${project.distributionManagement.snapshotRepository.url}</url>
-                        <groupId>${project.groupId}</groupId>
-                        <artifactId>${project.artifactId}</artifactId>
-                        <version>${project.version}</version>
-                        <file>features.xml</file>
-                    </configuration>
+                  
                 </execution>
             </executions>
         </plugin>
