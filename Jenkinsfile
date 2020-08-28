@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
     steps {
-    echo 'hello good morning'
+    bat label: '', script: 'java -version'
     }
     }
     stage('Test') {
